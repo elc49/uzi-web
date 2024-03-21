@@ -53,3 +53,6 @@ dump.rdb
 /public/worker-*.js.map
 /public/fallback-*.js
 /public/worker-*.txt
+
+# Sentry Config File
+.sentryclirc
