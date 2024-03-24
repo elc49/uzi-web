@@ -1,10 +1,14 @@
 'use client'
 
 import React from 'react'
-import { Heading } from '@chakra-ui/react'
+import { AbsoluteCenter, Box, Heading } from '@chakra-ui/react'
 
 const HomeScreen: React.FC = () => (
-    <Heading>Welcome to Uzi</Heading>
+    <Box position='relative' h='100vh'>
+        <AbsoluteCenter axis='both'>
+            <Heading>Uzi</Heading>
+        </AbsoluteCenter>
+    </Box>
 )
 
 export default HomeScreen
